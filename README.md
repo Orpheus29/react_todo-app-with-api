@@ -1,44 +1,33 @@
-# React Todo App with API (complete)
+<h1 align="center">🔥React Todo App🔥</h1>
 
-It is the third part of the React Todo App with API.
+<p align="center">
+    <sup>With API.</sup>
+</p>
 
-Take your code implemented for [Add and Delete](https://github.com/mate-academy/react_todo-app-add-and-delete)
-and implement the ability to toggle and rename todos.
+<p align="center">
+  <a href="https://orpheus29.github.io/react_todo-app-with-api/">
+    <strong>✨GO TO✨</strong>
+  </a>
+</p>
 
-> Here is [the working example](https://mate-academy.github.io/react_todo-app-with-api/)
+<h2 align="center">📋About📋</h2>
 
-## Toggling a todo status
+The daily task planner *Todo App* is a simple and convenient tool built on React.
 
-Toggle the `completed` status on `TodoStatus` change:
+The application provides a smooth interface with essential features for effective daily planning.
 
-- covered the todo with a loader overlay while waiting for API response;
-- the status should be changed on success;
-- show the `Unable to update a todo` notification in case of API error.
+You can easily add, edit, and sort tasks by status. Mark completed tasks and remove those that no longer require attention, either individually or in groups.
 
-Add the ability to toggle the completed status of all the todos with the `toggleAll` checkbox:
+<h2 align="center">🧙‍♂️Technologies used🧙‍♂️</h2>
 
-- `toggleAll` button should have `active` class only if all the todos are completed;
-- `toggleAll` click changes its status to the opposite one, and sets this new status to all the todos;
-- it should work the same as several individual updates of the todos which statuses were actually changed;
-- do send requests for the todos that were not changed;
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Bulma](https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=Bulma&logoColor=white)
 
-## Renaming a todo
+<h2 align="center">📌Running your application locally📌</h2>
 
-Implement the ability to edit a todo title on double click:
+Feel free to explore the code, make improvements, and contribute to the project.
 
-- show the edit form instead of the title and remove button;
-- saves changes on the form submit (just press `Enter`);
-- save changes when the field loses focus (`onBlur`);
-- if the new title is the same as the old one just cancel editing;
-- cancel editing on `Esс` key `keyup` event;
-- if the new title is empty delete the todo the same way the `x` button does it;
-- if the title was changed show the loader while waiting for the API response;
-- update the todo title on success;
-- show `Unable to update a todo` in case of API error;
-- or the deletion error message if we tried to delete the todo.
+To get started:
 
-## Instructions
-
-- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
-- Use the [React TypeScript cheat sheet](https://mate-academy.github.io/fe-program/js/extra/react-typescript).
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://Orpheus29.github.io/react_todo-app-with-api/) and add it to the PR description.
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies using `npm install`.
+3. Launch the project using `npm start`.
