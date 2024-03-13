@@ -10,6 +10,8 @@
   </a>
 </p>
 
+![TodoApp](https://github.com/Orpheus29/react_todo-app-with-api/assets/110335429/3f946bce-22aa-4ee6-89f5-23a5e5c823d3)
+
 <h2 align="center">📋About📋</h2>
 
 The daily task planner *Todo App* is a simple and convenient tool built on React.
